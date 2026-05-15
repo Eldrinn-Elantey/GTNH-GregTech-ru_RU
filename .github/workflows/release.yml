@@ -116,15 +116,42 @@ jobs:
 
           cat gtnh-pack-update.json
 
-      - name: Extract changelog
+      - name: Generate release notes
         shell: bash
         run: |
           set -euo pipefail
 
-          awk "/## Version: ${VERSION}/{flag=1;next}/## Version: /{flag=0}flag" CHANGELOG.md > RELEASE.md
-          if [[ ! -s RELEASE.md ]]; then
-            echo "Release v${VERSION}" > RELEASE.md
+          echo "## Release v${VERSION}" > RELEASE.md
+          echo "" >> RELEASE.md
+          echo "### Translation changes" >> RELEASE.md
+
+          if git rev-parse HEAD~1 &>/dev/null; then
+            DIFF_BASE="HEAD~1"
+          else
+            DIFF_BASE="$(git hash-object -t tree /dev/null)"
           fi
+
+          git diff "$DIFF_BASE" HEAD -- assets/ | awk '
+            /^diff --git/ { file=$3; sub(/^a\//, "", file) }
+            /^\+gt\./ { added[file]++ }
+            /^-gt\./ { removed[file]++ }
+            END {
+              for (f in added) seen[f]=1
+              for (f in removed) seen[f]=1
+              for (f in seen) {
+                n = split(f, parts, "/")
+                addon = parts[2]
+                a = (f in added) ? added[f] : 0
+                r = (f in removed) ? removed[f] : 0
+                print "- **" addon "**: +" a " / -" r " keys"
+              }
+            }
+          ' | sort >> RELEASE.md
+
+          if [[ $(wc -l < RELEASE.md) -le 3 ]]; then
+            echo "- no lang file changes detected" >> RELEASE.md
+          fi
+
           cat RELEASE.md
 
       - name: Create GitHub Release
