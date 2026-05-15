@@ -1111,3 +1111,56 @@ gt.oreprefix.4x_material_cable.signalium=4x Синаловый кабель
 gt.oreprefix.8x_material_cable.lumiium=8x Люмиевый кабель
 gt.oreprefix.8x_material_cable.signalium=8x Синаловый кабель
 gt.oreprefix.small_material_item_pipe.incoloy-903=Маленькая жидкостная труба из инколоя-903
+# Materials
+## Fine Wires
+gt.oreprefix.fine_material_wire.zirconium=Тонкая циркониевая проволока
+
+# Cells
+gt.oreprefix.material_cell.californium=Капсула калифорния
+gt.oreprefix.material_cell.rhodium=Капсула родия
+gt.oreprefix.material_cell.ruthenium=Капсула рутения
+gt.oreprefix.material_cell.thorium232=Капсула тория-232
+gt.oreprefix.material_cell.zirconium=Капсула циркония
+
+# Tools Parts
+## Plasma Cells
+gt.oreprefix.material_plasma_cell.californium=Капсула калифорниевой плазмы
+gt.oreprefix.material_plasma_cell.krypton=Капсула криптоновой плазмы
+gt.oreprefix.material_plasma_cell.neon=Капсула плазмы неона
+gt.oreprefix.material_plasma_cell.rhodium=Капсула родиевой плазмы
+gt.oreprefix.material_plasma_cell.ruthenium=Капсула рутениевой плазмы
+gt.oreprefix.material_plasma_cell.thorium232=Капсула плазмы тория-232
+gt.oreprefix.material_plasma_cell.xenon=Капсула ксеноновой плазмы
+gt.oreprefix.material_plasma_cell.zirconium=Капсула циркониевой плазмы
+
+# Unsorted
+gt.oreprefix.tiny_pile_of_material.sodiumnitrate=Крошечная кучка пыли нитрата натрия
+# Fluid
+## Moltens
+gt.oreprefix.molten_material.ademicsteel=Расплавленная адемическая сталь
+gt.oreprefix.molten_material.bartimaeusnek=Расплавленный BArTiMaEuSNeK
+gt.oreprefix.molten_material.calciumchloride=Расплавленный хлорид кальция
+gt.oreprefix.molten_material.californium=Расплавленный калифорний
+gt.oreprefix.molten_material.highdurabilitycompoundsteel=Расплавленная высокопрочная стальная смесь
+gt.oreprefix.molten_material.incoloy-903=Расплавленный инколой-903
+gt.oreprefix.molten_material.lumiium=Расплавленный люмий
+gt.oreprefix.molten_material.potassiumdisulfate=Расплавленный дисульфат калия
+gt.oreprefix.molten_material.rhodium=Расплавленный родий
+gt.oreprefix.molten_material.rhodium-platedpalladium=Расплавленный родированный палладий
+gt.oreprefix.molten_material.ruridit=Расплавленный руридит
+gt.oreprefix.molten_material.ruthenium=Расплавленный рутений
+gt.oreprefix.molten_material.signalium=Расплавленный синал
+gt.oreprefix.molten_material.sodiumnitrate=Расплавленный нитрат натрия
+gt.oreprefix.molten_material.tantalumhafniumcarbide=Расплавленный тантал-гафниевый карбид
+gt.oreprefix.molten_material.thorium232=Расплавленный торий-232
+gt.oreprefix.molten_material.zirconium=Расплавленный цирконий
+
+## Plasma
+gt.oreprefix.material_plasma.californium=Калифорниевая плазма
+gt.oreprefix.material_plasma.krypton=Криптоновая плазма
+gt.oreprefix.material_plasma.neon=Неоновая плазма
+gt.oreprefix.material_plasma.rhodium=Родиевая плазма
+gt.oreprefix.material_plasma.ruthenium=Рутениевая плазма
+gt.oreprefix.material_plasma.thorium232=Плазма тория-232
+gt.oreprefix.material_plasma.xenon=Ксеноновая плазма
+gt.oreprefix.material_plasma.zirconium=Циркониевая плазма
