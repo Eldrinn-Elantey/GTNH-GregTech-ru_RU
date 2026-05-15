@@ -1,0 +1,228 @@
+# Wires
+## 1x
+gt.oreprefix.1x_material_wire.hypogen=1x Гипогеновый провод
+
+## 2x
+gt.oreprefix.2x_material_wire.hypogen=2x Гипогеновый провод
+
+## 4x
+gt.oreprefix.4x_material_wire.hypogen=4x Гипогеновый провод
+
+## 8x
+gt.oreprefix.8x_material_wire.hypogen=8x Гипогеновый провод
+
+## 12x
+gt.oreprefix.12x_material_wire.hypogen=12x Гипогеновый провод
+
+## 16x
+gt.oreprefix.16x_material_wire.hypogen=16x Гипогеновый провод
+
+# Blocks
+gt.oreprefix.block_of_material.abyssalalloy=Блок сплава бездны
+gt.oreprefix.block_of_material.advancednitinol=Блок улучшенного нитинола
+gt.oreprefix.block_of_material.ancientgranite=Блок древнего гранита
+gt.oreprefix.block_of_material.arcanite=Арканитовый блок
+gt.oreprefix.block_of_material.arceusalloy2b=Блок сплава Аркеус 2B
+gt.oreprefix.block_of_material.astraltitanium=Блок астрального титана
+gt.oreprefix.block_of_material.babbitalloy=Блок баббита
+gt.oreprefix.block_of_material.blackmetal=Блок чёрного металла
+gt.oreprefix.block_of_material.blacktitanium=Блок чёрного титана
+gt.oreprefix.block_of_material.bloodsteel=Блок кровавой стали
+gt.oreprefix.block_of_material.botmium=Ботмиевый блок
+gt.oreprefix.block_of_material.celestialtungsten=Блок небесного вольфрама
+gt.oreprefix.block_of_material.chromaticglass=Блок хроматического стекла
+gt.oreprefix.block_of_material.cinobitea243=Блок цинобита A243
+gt.oreprefix.block_of_material.curium=Кюриевый блок
+gt.oreprefix.block_of_material.dragonblood=Блок драконьего металла
+gt.oreprefix.block_of_material.eglinsteel=Блок эглиновой стали
+gt.oreprefix.block_of_material.energycrystal=Блок энергокристалла
+gt.oreprefix.block_of_material.fermium=Фермиевый блок
+gt.oreprefix.block_of_material.germanium=Германиевый блок
+gt.oreprefix.block_of_material.grisium=Гризиевый блок
+gt.oreprefix.block_of_material.hastelloyc276=Блок хастеллоя-C276
+gt.oreprefix.block_of_material.hastelloyn=Блок хастеллоя-N
+gt.oreprefix.block_of_material.hastelloyw=Блок хастеллоя-W
+gt.oreprefix.block_of_material.hastelloyx=Блок хастеллоя-X
+gt.oreprefix.block_of_material.helicopter=HeLiCoPtEr блок
+gt.oreprefix.block_of_material.hs188a=HS188-A блок
+gt.oreprefix.block_of_material.hypogen=Гипогеновый блок
+gt.oreprefix.block_of_material.incoloy020=Блок инколоя-020
+gt.oreprefix.block_of_material.incoloyds=Блок инколоя-DS
+gt.oreprefix.block_of_material.incoloyma956=Блок инколоя-MA956
+gt.oreprefix.block_of_material.inconel625=Блок инконеля-625
+gt.oreprefix.block_of_material.inconel690=Блок инконеля-690
+gt.oreprefix.block_of_material.inconel792=Блок инконеля-792
+gt.oreprefix.block_of_material.indalloy140=Блок индиевого сплава 140
+gt.oreprefix.block_of_material.iodine=Блок йода
+gt.oreprefix.block_of_material.lafiumcompound=Блок лафиумной смеси
+gt.oreprefix.block_of_material.laurenium=Лаурениевый блок
+gt.oreprefix.block_of_material.lithium7=Блок лития-7
+gt.oreprefix.block_of_material.maragingsteel250=Блок мартенситностареющей стали 250
+gt.oreprefix.block_of_material.maragingsteel300=Блок мартенситностареющей стали 300
+gt.oreprefix.block_of_material.maragingsteel350=Блок мартенситностареющей стали 350
+gt.oreprefix.block_of_material.neptunium=Нептуниевый блок
+gt.oreprefix.block_of_material.niobiumcarbide=Блок карбида ниобия
+gt.oreprefix.block_of_material.nitinol60=Блок нитинола 60
+gt.oreprefix.block_of_material.octiron=Блок октирона
+gt.oreprefix.block_of_material.pikyonium64b=Блок пикония 64B
+gt.oreprefix.block_of_material.plutonium238=Блок плутония-238
+gt.oreprefix.block_of_material.polonium=Полониевый блок
+gt.oreprefix.block_of_material.potin=Потиновый блок
+gt.oreprefix.block_of_material.protactinium=Протактиниевый блок
+gt.oreprefix.block_of_material.quantum=Квантум блок
+gt.oreprefix.block_of_material.radium=Радиевый блок
+gt.oreprefix.block_of_material.rhenium=Рениевый блок
+gt.oreprefix.block_of_material.rhugnor=Блок ругнора
+gt.oreprefix.block_of_material.runite=Рунитовый блок
+gt.oreprefix.block_of_material.selenium=Селеновый блок
+gt.oreprefix.block_of_material.siliconcarbide=Блок карбида кремния
+gt.oreprefix.block_of_material.staballoy=Блок стабаллоя
+gt.oreprefix.block_of_material.stellite=Стеллитовый блок
+gt.oreprefix.block_of_material.talonite=Талонитовый блок
+gt.oreprefix.block_of_material.tantalloy60=Блок танталового сплава-60
+gt.oreprefix.block_of_material.tantalloy61=Блок танталового сплава-61
+gt.oreprefix.block_of_material.tantalumcarbide=Блок карбида тантала
+gt.oreprefix.block_of_material.thallium=Таллиевый блок
+gt.oreprefix.block_of_material.titansteel=Блок титановой стали
+gt.oreprefix.block_of_material.triniumnaquadahalloy=Блок триний-наквадахового сплава
+gt.oreprefix.block_of_material.triniumnaquadahcarbonite=Блок триний-наквадахового карбонита
+gt.oreprefix.block_of_material.triniumtitaniumalloy=Блок триний-титанового сплава
+gt.oreprefix.block_of_material.tumbaga=Тумбаговый блок
+gt.oreprefix.block_of_material.tungstentitaniumcarbide=Блок вольфрам-титананового карбида
+gt.oreprefix.block_of_material.uranium232=Блок урана-232
+gt.oreprefix.block_of_material.uranium233=Блок урана-233
+gt.oreprefix.block_of_material.watertightsteel=Блок водостойкой стали
+gt.oreprefix.block_of_material.whitemetal=Блок белого металла
+gt.oreprefix.block_of_material.zeron100=Блок зерона-100
+gt.oreprefix.block_of_material.zirconiumcarbide=Блок карбида циркония
+
+# Pipes
+## Fluid Pipes
+### Huge
+gt.oreprefix.huge_material_fluid_pipe.maraging_steel_300=Огромная жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.huge_material_fluid_pipe.maraging_steel_350=Огромная жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.huge_material_fluid_pipe.potin=Огромная потиновая жидкостная труба
+gt.oreprefix.huge_material_fluid_pipe.staballoy=Огромная стабаллой жидкостная труба
+gt.oreprefix.huge_material_fluid_pipe.trinium_naquadah_carbonite=Огромная жидкостная труба из триний-наквадахового карбонита
+
+### Larges
+gt.oreprefix.large_material_fluid_pipe.maraging_steel_300=Большая жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.large_material_fluid_pipe.maraging_steel_350=Большая жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.large_material_fluid_pipe.potin=Большая потиновая жидкостная труба
+gt.oreprefix.large_material_fluid_pipe.staballoy=Большая стабаллой жидкостная труба
+gt.oreprefix.large_material_fluid_pipe.trinium_naquadah_carbonite=Большая жидкостная труба из триний-наквадахового карбонита
+
+### Normals
+gt.oreprefix.material_fluid_pipe.maraging_steel_300=Жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.material_fluid_pipe.maraging_steel_350=Жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.material_fluid_pipe.potin=Потиновая жидкостная труба
+gt.oreprefix.material_fluid_pipe.staballoy=Стабаллой жидкостная труба
+gt.oreprefix.material_fluid_pipe.trinium_naquadah_carbonite=Жидкостная труба из триний-наквадахового карбонита
+
+## Item Pipes
+### Huges
+gt.oreprefix.huge_material_item_pipe.hastelloy-x=Огромная жидкостная труба из хастеллой-X
+gt.oreprefix.huge_material_item_pipe.inconel-690=Огромная жидкостная труба из инконеля-690
+gt.oreprefix.huge_material_item_pipe.inconel-792=Огромная жидкостная труба из инконеля-792
+gt.oreprefix.huge_material_item_pipe.tantalloy-60=Огромная жидкостная труба из танталового сплава-60
+gt.oreprefix.huge_material_item_pipe.tantalloy-61=Огромная жидкостная труба из танталового сплава-61
+
+### Larges
+gt.oreprefix.large_material_item_pipe.hastelloy-x=Большая жидкостная труба из хастеллой-X
+gt.oreprefix.large_material_item_pipe.inconel-690=Большая жидкостная труба из инконеля-690
+gt.oreprefix.large_material_item_pipe.inconel-792=Большая жидкостная труба из инконеля-792
+gt.oreprefix.large_material_item_pipe.tantalloy-60=Большая жидкостная труба из танталового сплава-60
+gt.oreprefix.large_material_item_pipe.tantalloy-61=Большая жидкостная труба из танталового сплава-61
+
+### Normals
+gt.oreprefix.material_item_pipe.hastelloy-x=Жидкостная труба из хастеллой-X
+gt.oreprefix.material_item_pipe.inconel-690=Жидкостная труба из инконеля-690
+gt.oreprefix.material_item_pipe.inconel-792=Жидкостная труба из инконеля-792
+gt.oreprefix.material_item_pipe.tantalloy-60=Жидкостная труба из танталового сплава-60
+gt.oreprefix.material_item_pipe.tantalloy-61=Жидкостная труба из танталового сплава-61
+
+### Tinys
+gt.oreprefix.tiny_material_item_pipe.hastelloy-x=Крошечная жидкостная труба из хастеллой-X
+gt.oreprefix.tiny_material_item_pipe.inconel-690=Крошечная жидкостная труба из инконеля-690
+gt.oreprefix.tiny_material_item_pipe.inconel-792=Крошечная жидкостная труба из инконеля-792
+gt.oreprefix.tiny_material_item_pipe.tantalloy-60=Крошечная жидкостная труба из танталового сплава-60
+gt.oreprefix.tiny_material_item_pipe.tantalloy-61=Крошечная жидкостная труба из танталового сплава-61
+
+# Cells
+## Frame Boxs
+gt.oreprefix.material_frame_box.abyssalalloy=Каркас из сплава бездны
+gt.oreprefix.material_frame_box.arcanite=Арканитовый каркас
+gt.oreprefix.material_frame_box.arceusalloy2b=Каркас из сплава Аркеус 2B
+gt.oreprefix.material_frame_box.astraltitanium=Каркас из астрального титана
+gt.oreprefix.material_frame_box.blackmetal=Каркас из чёрного металла
+gt.oreprefix.material_frame_box.bloodsteel=Каркас из кровавой стали
+gt.oreprefix.material_frame_box.botmium=Ботмиевый каркас
+gt.oreprefix.material_frame_box.celestialtungsten=Каркас из небесного вольфрама
+gt.oreprefix.material_frame_box.chromaticglass=Каркас из хроматического стекла
+gt.oreprefix.material_frame_box.cinobitea243=Каркас из цинобита A243
+gt.oreprefix.material_frame_box.dragonblood=Каркас из драконьего металла
+gt.oreprefix.material_frame_box.eglinsteel=Каркас из эглиновой стали
+gt.oreprefix.material_frame_box.energycrystal=Каркас из энергокристалла
+gt.oreprefix.material_frame_box.germanium=Германиевый каркас
+gt.oreprefix.material_frame_box.grisium=Гризиевый каркас
+gt.oreprefix.material_frame_box.hastelloyc276=Каркас из хастеллоя-C276
+gt.oreprefix.material_frame_box.hastelloyn=Каркас из хастеллоя-N
+gt.oreprefix.material_frame_box.hastelloyw=Каркас из хастеллоя-W
+gt.oreprefix.material_frame_box.hastelloyx=Каркас из хастеллоя-X
+gt.oreprefix.material_frame_box.helicopter=HeLiCoPtEr каркас
+gt.oreprefix.material_frame_box.hs188a=HS188-A каркас
+gt.oreprefix.material_frame_box.hypogen=Гипогеновый каркас
+gt.oreprefix.material_frame_box.incoloy020=Каркас из инколоя-020
+gt.oreprefix.material_frame_box.incoloyds=Каркас из инколоя-DS
+gt.oreprefix.material_frame_box.incoloyma956=Каркас из инколоя-MA956
+gt.oreprefix.material_frame_box.inconel625=Каркас из инконеля-625
+gt.oreprefix.material_frame_box.inconel690=Каркас из инконеля-690
+gt.oreprefix.material_frame_box.inconel792=Каркас из инконеля-792
+gt.oreprefix.material_frame_box.iodine=Каркас из йода
+gt.oreprefix.material_frame_box.lafiumcompound=Каркас из лафиумной смеси
+gt.oreprefix.material_frame_box.laurenium=Лаурениевый каркас
+gt.oreprefix.material_frame_box.maragingsteel250=Каркас из мартенситностареющей стали 250
+gt.oreprefix.material_frame_box.maragingsteel300=Каркас из мартенситностареющей стали 300
+gt.oreprefix.material_frame_box.maragingsteel350=Каркас из мартенситностареющей стали 350
+gt.oreprefix.material_frame_box.niobiumcarbide=Каркас из карбида ниобия
+gt.oreprefix.material_frame_box.nitinol60=Каркас из нитинола 60
+gt.oreprefix.material_frame_box.octiron=Октироновый каркас
+gt.oreprefix.material_frame_box.pikyonium64b=Каркас из пикония 64B
+gt.oreprefix.material_frame_box.potin=Потиновый каркас
+gt.oreprefix.material_frame_box.quantum=Квантум каркас
+gt.oreprefix.material_frame_box.rhenium=Рениевый каркас
+gt.oreprefix.material_frame_box.selenium=Селеновый каркас
+gt.oreprefix.material_frame_box.siliconcarbide=Каркас из карбида кремния
+gt.oreprefix.material_frame_box.staballoy=Стабаллой каркас
+gt.oreprefix.material_frame_box.stellite=Стеллитовый каркас
+gt.oreprefix.material_frame_box.talonite=Талонитовый каркас
+gt.oreprefix.material_frame_box.tantalloy60=Каркас из танталового сплава-60
+gt.oreprefix.material_frame_box.tantalloy61=Каркас из танталового сплава-61
+gt.oreprefix.material_frame_box.tantalumcarbide=Каркас из карбида тантала
+gt.oreprefix.material_frame_box.thallium=Таллиевый каркас
+gt.oreprefix.material_frame_box.titansteel=Каркас из титановой стали
+gt.oreprefix.material_frame_box.triniumnaquadahcarbonite=Каркас из триний-наквадахового карбонита
+gt.oreprefix.material_frame_box.triniumtitaniumalloy=Каркас из триний-титанового сплава
+gt.oreprefix.material_frame_box.tumbaga=Тумбаговый каркас
+gt.oreprefix.material_frame_box.tungstentitaniumcarbide=Каркас из вольфрам-титананового карбида
+gt.oreprefix.material_frame_box.watertightsteel=Каркас из водостойкой стали
+gt.oreprefix.material_frame_box.whitemetal=Каркас из белого металла
+gt.oreprefix.material_frame_box.zeron100=Каркас из зерона-100
+gt.oreprefix.material_frame_box.zirconiumcarbide=Каркас из карбида циркония
+
+# Unsorted
+gt.oreprefix.small_material_fluid_pipe.maraging_steel_300=Маленькая жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.small_material_fluid_pipe.maraging_steel_350=Маленькая жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.small_material_fluid_pipe.potin=Маленькая потиновая жидкостная труба
+gt.oreprefix.small_material_fluid_pipe.staballoy=Маленькая стабаллой жидкостная труба
+gt.oreprefix.small_material_fluid_pipe.trinium_naquadah_carbonite=Маленькая жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.small_material_item_pipe.hastelloy-x=Маленькая жидкостная труба из хастеллой-X
+gt.oreprefix.small_material_item_pipe.inconel-690=Маленькая жидкостная труба из инконеля-690
+gt.oreprefix.small_material_item_pipe.inconel-792=Маленькая жидкостная труба из инконеля-792
+gt.oreprefix.small_material_item_pipe.tantalloy-60=Маленькая жидкостная труба из танталового сплава-60
+gt.oreprefix.small_material_item_pipe.tantalloy-61=Маленькая жидкостная труба из танталового сплава-61
+gt.oreprefix.tiny_material_fluid_pipe.maraging_steel_300=Крошечная жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.tiny_material_fluid_pipe.maraging_steel_350=Крошечная жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.tiny_material_fluid_pipe.potin=Крошечная потиновая жидкостная труба
+gt.oreprefix.tiny_material_fluid_pipe.staballoy=Крошечная стабаллой жидкостная труба
+gt.oreprefix.tiny_material_fluid_pipe.trinium_naquadah_carbonite=Крошечная жидкостная труба из триний-наквадахового карбонита
