@@ -2686,3 +2686,16 @@ gt.oreprefix.tiny_pile_of_material_dust.zircaloy-4=Крошечная кучка
 gt.oreprefix.tiny_pile_of_material_dust.zirconia=Крошечная кучка пыли диоксида циркония
 gt.oreprefix.tiny_pile_of_material_dust.zirconiumtetrachloride=Крошечная кучка пыли тетрахлорида циркония
 gt.oreprefix.tiny_pile_of_material_dust.zn-thalloy=Крошечная кучка пыли Zn-Th сплава
+
+# Sheetmetal
+
+gt.oreprefix.material_sheetmetal.ademicsteel=Адемическая сталь листовой металл
+gt.oreprefix.material_sheetmetal.artherium-sn=Этерий листовой металл
+gt.oreprefix.material_sheetmetal.highdurabilitycompoundsteel=Высокопрочная стальная смесь листовой металл
+gt.oreprefix.material_sheetmetal.mu-metal=Мю-металл листовой металл
+gt.oreprefix.material_sheetmetal.rhodium=Родий листовой металл
+gt.oreprefix.material_sheetmetal.rhodium-platedpalladium=Родированный палладий листовой металл
+gt.oreprefix.material_sheetmetal.ruridit=Руридит листовой металл
+gt.oreprefix.material_sheetmetal.ruthenium=Рутений листовой металл
+gt.oreprefix.material_sheetmetal.signalium=Синал листовой металл
+gt.oreprefix.material_sheetmetal.tiberium=Тиберий листовой металл
