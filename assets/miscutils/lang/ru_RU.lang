@@ -98,55 +98,66 @@ gt.oreprefix.block_of_material.zirconiumcarbide=Блок карбида цирк
 
 # Pipes
 ## Fluid Pipes
+
 ### Huge
-gt.oreprefix.huge_material_fluid_pipe.maraging_steel_300=Огромная жидкостная труба из мартенситностареющей стали 300
-gt.oreprefix.huge_material_fluid_pipe.maraging_steel_350=Огромная жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.huge_material_fluid_pipe.hastelloyx=Огромная жидкостная труба из хастеллой-X
+gt.oreprefix.huge_material_fluid_pipe.inconel690=Огромная жидкостная труба из инконеля-690
+gt.oreprefix.huge_material_fluid_pipe.maragingsteel300=Огромная жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.huge_material_fluid_pipe.maragingsteel350=Огромная жидкостная труба из мартенситностареющей стали 350
 gt.oreprefix.huge_material_fluid_pipe.potin=Огромная потиновая жидкостная труба
 gt.oreprefix.huge_material_fluid_pipe.staballoy=Огромная стабаллой жидкостная труба
-gt.oreprefix.huge_material_fluid_pipe.trinium_naquadah_carbonite=Огромная жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.huge_material_fluid_pipe.tantalloy60=Огромная жидкостная труба из танталового сплава-60
+gt.oreprefix.huge_material_fluid_pipe.tantalloy61=Огромная жидкостная труба из танталового сплава-61
+gt.oreprefix.huge_material_fluid_pipe.triniumnaquadahcarbonite=Огромная жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.huge_material_fluid_pipe.inconel792=Огромная жидкостная труба из инконеля-792
 
-### Larges
-gt.oreprefix.large_material_fluid_pipe.maraging_steel_300=Большая жидкостная труба из мартенситностареющей стали 300
-gt.oreprefix.large_material_fluid_pipe.maraging_steel_350=Большая жидкостная труба из мартенситностареющей стали 350
+### Large
+gt.oreprefix.large_material_fluid_pipe.hastelloyx=Большая жидкостная труба из хастеллой-X
+gt.oreprefix.large_material_fluid_pipe.inconel690=Большая жидкостная труба из инконеля-690
+gt.oreprefix.large_material_fluid_pipe.maragingsteel300=Большая жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.large_material_fluid_pipe.maragingsteel350=Большая жидкостная труба из мартенситностареющей стали 350
 gt.oreprefix.large_material_fluid_pipe.potin=Большая потиновая жидкостная труба
 gt.oreprefix.large_material_fluid_pipe.staballoy=Большая стабаллой жидкостная труба
-gt.oreprefix.large_material_fluid_pipe.trinium_naquadah_carbonite=Большая жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.large_material_fluid_pipe.tantalloy60=Большая жидкостная труба из танталового сплава-60
+gt.oreprefix.large_material_fluid_pipe.tantalloy61=Большая жидкостная труба из танталового сплава-61
+gt.oreprefix.large_material_fluid_pipe.triniumnaquadahcarbonite=Большая жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.large_material_fluid_pipe.inconel792=Большая жидкостная труба из инконеля-792
 
-### Normals
-gt.oreprefix.material_fluid_pipe.maraging_steel_300=Жидкостная труба из мартенситностареющей стали 300
-gt.oreprefix.material_fluid_pipe.maraging_steel_350=Жидкостная труба из мартенситностареющей стали 350
+### Normal
+gt.oreprefix.material_fluid_pipe.hastelloyx=Жидкостная труба из хастеллой-X
+gt.oreprefix.material_fluid_pipe.maragingsteel300=Жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.material_fluid_pipe.maragingsteel350=Жидкостная труба из мартенситностареющей стали 350
 gt.oreprefix.material_fluid_pipe.potin=Потиновая жидкостная труба
 gt.oreprefix.material_fluid_pipe.staballoy=Стабаллой жидкостная труба
-gt.oreprefix.material_fluid_pipe.trinium_naquadah_carbonite=Жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.material_fluid_pipe.tantalloy60=Жидкостная труба из танталового сплава-60
+gt.oreprefix.material_fluid_pipe.tantalloy61=Жидкостная труба из танталового сплава-61
+gt.oreprefix.material_fluid_pipe.triniumnaquadahcarbonite=Жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.material_fluid_pipe.inconel690=Жидкостная труба из инконеля-690
+gt.oreprefix.material_fluid_pipe.inconel792=Жидкостная труба из инконеля-792
 
-## Item Pipes
-### Huges
-gt.oreprefix.huge_material_item_pipe.hastelloy-x=Огромная жидкостная труба из хастеллой-X
-gt.oreprefix.huge_material_item_pipe.inconel-690=Огромная жидкостная труба из инконеля-690
-gt.oreprefix.huge_material_item_pipe.inconel-792=Огромная жидкостная труба из инконеля-792
-gt.oreprefix.huge_material_item_pipe.tantalloy-60=Огромная жидкостная труба из танталового сплава-60
-gt.oreprefix.huge_material_item_pipe.tantalloy-61=Огромная жидкостная труба из танталового сплава-61
+### Small
+gt.oreprefix.small_material_fluid_pipe.hastelloyx=Маленькая жидкостная труба из хастеллой-X
+gt.oreprefix.small_material_fluid_pipe.inconel690=Маленькая жидкостная труба из инконеля-690
+gt.oreprefix.small_material_fluid_pipe.maragingsteel300=Маленькая жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.small_material_fluid_pipe.maragingsteel350=Маленькая жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.small_material_fluid_pipe.potin=Маленькая потиновая жидкостная труба
+gt.oreprefix.small_material_fluid_pipe.staballoy=Маленькая стабаллой жидкостная труба
+gt.oreprefix.small_material_fluid_pipe.tantalloy60=Маленькая жидкостная труба из танталового сплава-60
+gt.oreprefix.small_material_fluid_pipe.tantalloy61=Маленькая жидкостная труба из танталового сплава-61
+gt.oreprefix.small_material_fluid_pipe.triniumnaquadahcarbonite=Маленькая жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.small_material_fluid_pipe.inconel792=Маленькая жидкостная труба из инконеля-792
 
-### Larges
-gt.oreprefix.large_material_item_pipe.hastelloy-x=Большая жидкостная труба из хастеллой-X
-gt.oreprefix.large_material_item_pipe.inconel-690=Большая жидкостная труба из инконеля-690
-gt.oreprefix.large_material_item_pipe.inconel-792=Большая жидкостная труба из инконеля-792
-gt.oreprefix.large_material_item_pipe.tantalloy-60=Большая жидкостная труба из танталового сплава-60
-gt.oreprefix.large_material_item_pipe.tantalloy-61=Большая жидкостная труба из танталового сплава-61
-
-### Normals
-gt.oreprefix.material_item_pipe.hastelloy-x=Жидкостная труба из хастеллой-X
-gt.oreprefix.material_item_pipe.inconel-690=Жидкостная труба из инконеля-690
-gt.oreprefix.material_item_pipe.inconel-792=Жидкостная труба из инконеля-792
-gt.oreprefix.material_item_pipe.tantalloy-60=Жидкостная труба из танталового сплава-60
-gt.oreprefix.material_item_pipe.tantalloy-61=Жидкостная труба из танталового сплава-61
-
-### Tinys
-gt.oreprefix.tiny_material_item_pipe.hastelloy-x=Крошечная жидкостная труба из хастеллой-X
-gt.oreprefix.tiny_material_item_pipe.inconel-690=Крошечная жидкостная труба из инконеля-690
-gt.oreprefix.tiny_material_item_pipe.inconel-792=Крошечная жидкостная труба из инконеля-792
-gt.oreprefix.tiny_material_item_pipe.tantalloy-60=Крошечная жидкостная труба из танталового сплава-60
-gt.oreprefix.tiny_material_item_pipe.tantalloy-61=Крошечная жидкостная труба из танталового сплава-61
+### Tiny
+gt.oreprefix.tiny_material_fluid_pipe.hastelloyx=Крошечная жидкостная труба из хастеллой-X
+gt.oreprefix.tiny_material_fluid_pipe.inconel690=Крошечная жидкостная труба из инконеля-690
+gt.oreprefix.tiny_material_fluid_pipe.maragingsteel300=Крошечная жидкостная труба из мартенситностареющей стали 300
+gt.oreprefix.tiny_material_fluid_pipe.maragingsteel350=Крошечная жидкостная труба из мартенситностареющей стали 350
+gt.oreprefix.tiny_material_fluid_pipe.potin=Крошечная потиновая жидкостная труба
+gt.oreprefix.tiny_material_fluid_pipe.staballoy=Крошечная стабаллой жидкостная труба
+gt.oreprefix.tiny_material_fluid_pipe.tantalloy60=Крошечная жидкостная труба из танталового сплава-60
+gt.oreprefix.tiny_material_fluid_pipe.tantalloy61=Крошечная жидкостная труба из танталового сплава-61
+gt.oreprefix.tiny_material_fluid_pipe.triniumnaquadahcarbonite=Крошечная жидкостная труба из триний-наквадахового карбонита
+gt.oreprefix.tiny_material_fluid_pipe.inconel792=Крошечная жидкостная труба из инконеля-792
 
 # Cells
 ## Frame Boxs
@@ -210,22 +221,6 @@ gt.oreprefix.material_frame_box.whitemetal=Каркас из белого мет
 gt.oreprefix.material_frame_box.zeron100=Каркас из зерона-100
 gt.oreprefix.material_frame_box.zirconiumcarbide=Каркас из карбида циркония
 
-# Unsorted
-gt.oreprefix.small_material_fluid_pipe.maraging_steel_300=Маленькая жидкостная труба из мартенситностареющей стали 300
-gt.oreprefix.small_material_fluid_pipe.maraging_steel_350=Маленькая жидкостная труба из мартенситностареющей стали 350
-gt.oreprefix.small_material_fluid_pipe.potin=Маленькая потиновая жидкостная труба
-gt.oreprefix.small_material_fluid_pipe.staballoy=Маленькая стабаллой жидкостная труба
-gt.oreprefix.small_material_fluid_pipe.trinium_naquadah_carbonite=Маленькая жидкостная труба из триний-наквадахового карбонита
-gt.oreprefix.small_material_item_pipe.hastelloy-x=Маленькая жидкостная труба из хастеллой-X
-gt.oreprefix.small_material_item_pipe.inconel-690=Маленькая жидкостная труба из инконеля-690
-gt.oreprefix.small_material_item_pipe.inconel-792=Маленькая жидкостная труба из инконеля-792
-gt.oreprefix.small_material_item_pipe.tantalloy-60=Маленькая жидкостная труба из танталового сплава-60
-gt.oreprefix.small_material_item_pipe.tantalloy-61=Маленькая жидкостная труба из танталового сплава-61
-gt.oreprefix.tiny_material_fluid_pipe.maraging_steel_300=Крошечная жидкостная труба из мартенситностареющей стали 300
-gt.oreprefix.tiny_material_fluid_pipe.maraging_steel_350=Крошечная жидкостная труба из мартенситностареющей стали 350
-gt.oreprefix.tiny_material_fluid_pipe.potin=Крошечная потиновая жидкостная труба
-gt.oreprefix.tiny_material_fluid_pipe.staballoy=Крошечная стабаллой жидкостная труба
-gt.oreprefix.tiny_material_fluid_pipe.trinium_naquadah_carbonite=Крошечная жидкостная труба из триний-наквадахового карбонита
 # Ores
 gt.oreprefix.material_ore.agarditecd=Агардитовая (Cd) руда
 gt.oreprefix.material_ore.agarditela=Агардитовая (La) руда
