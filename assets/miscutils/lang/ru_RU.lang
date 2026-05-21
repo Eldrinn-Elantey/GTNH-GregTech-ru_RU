@@ -2002,6 +2002,10 @@ gt.oreprefix.material_dust.potassiumnitrate=Пыль нитрата калия
 gt.oreprefix.material_dust.sodiumnitrate=Пыль нитрата натрия
 gt.oreprefix.material_dust.woodsglass=Пыль стекла Вуда
 gt.oreprefix.material_dust.hydratedlime=Гашёная известь
+gt.oreprefix.material_dust.infusedwater=Пыль кристалла воды
+gt.oreprefix.material_dust.infusedair=Пыль кристалла воздуха
+gt.oreprefix.material_dust.infusedearth=Пыль кристалла земли
+gt.oreprefix.material_dust.infusedfire=Пыль кристалла огня
 
 gt.oreprefix.small_pile_of_material_dust.calciumsulfategypsum=Маленькая кучка пыли сульфата кальция (гипс)
 gt.oreprefix.small_pile_of_material_dust.li2co3cao2h2compound=Маленькая кучка пыли смеси Li2CO3 + CaO2H2
