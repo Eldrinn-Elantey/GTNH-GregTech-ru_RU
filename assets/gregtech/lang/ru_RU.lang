@@ -9069,8 +9069,6 @@ gt.oreprefix.material_cell.vinylchloride=Капсула винилхлорида
 gt.oreprefix.material_cell.woodgas=Капсула древесного газа
 gt.oreprefix.material_cell.woodtar=Капсула древесного дёгтя
 gt.oreprefix.material_cell.woodvinegar=Капсула древесного уксуса
-gt.oreprefix.material_cell.coaltar=Капсула каменноугольного дёгтя
-gt.oreprefix.material_cell.coaltaroil=Капсула каменноугольного минерального масла
 
 ## Molten Cells
 gt.oreprefix.molten_material_cell.adamantium=Капсула расплавленного адамантия
