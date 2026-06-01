@@ -222,6 +222,67 @@ gt.oreprefix.material_frame_box.whitemetal=Каркас из белого мет
 gt.oreprefix.material_frame_box.zeron100=Каркас из зерона-100
 gt.oreprefix.material_frame_box.zirconiumcarbide=Каркас из карбида циркония
 
+## Frame Boxs (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.abyssalalloy=Каркас из сплава бездны (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.arcanite=Арканитовый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.arceusalloy2b=Каркас из сплава Аркеус 2B (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.astraltitanium=Каркас из астрального титана (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.blackmetal=Каркас из чёрного металла (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.bloodsteel=Каркас из кровавой стали (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.botmium=Ботмиевый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.celestialtungsten=Каркас из небесного вольфрама (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.chromaticglass=Каркас из хроматического стекла (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.cinobitea243=Каркас из цинобита A243 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.dragonblood=Каркас из драконьего металла (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.eglinsteel=Каркас из эглиновой стали (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.energycrystal=Каркас из энергокристалла (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.germanium=Германиевый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.grisium=Гризиевый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.hastelloyc276=Каркас из хастеллоя-C276 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.hastelloyn=Каркас из хастеллоя-N (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.hastelloyw=Каркас из хастеллоя-W (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.hastelloyx=Каркас из хастеллоя-X (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.helicopter=HeLiCoPtEr каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.hs188a=HS188-A каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.hypogen=Гипогеновый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.incoloy020=Каркас из инколоя-020 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.incoloyds=Каркас из инколоя-DS (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.incoloyma956=Каркас из инколоя-MA956 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.inconel625=Каркас из инконеля-625 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.inconel690=Каркас из инконеля-690 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.inconel792=Каркас из инконеля-792 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.iodine=Каркас из йода (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.lafiumcompound=Каркас из лафиумной смеси (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.laurenium=Лаурениевый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.maragingsteel250=Каркас из мартенситностареющей стали 250 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.maragingsteel300=Каркас из мартенситностареющей стали 300 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.maragingsteel350=Каркас из мартенситностареющей стали 350 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.niobiumcarbide=Каркас из карбида ниобия (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.nitinol60=Каркас из нитинола 60 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.octiron=Октироновый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.pikyonium64b=Каркас из пикония 64B (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.potin=Потиновый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.quantum=Квантум каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.rhenium=Рениевый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.selenium=Селеновый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.siliconcarbide=Каркас из карбида кремния (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.staballoy=Стабаллой каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.stellite=Стеллитовый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.talonite=Талонитовый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.tantalloy60=Каркас из танталового сплава-60 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.tantalloy61=Каркас из танталового сплава-61 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.tantalumcarbide=Каркас из карбида тантала (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.thallium=Таллиевый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.titansteel=Каркас из титановой стали (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.triniumnaquadahcarbonite=Каркас из триний-наквадахового карбонита (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.triniumtitaniumalloy=Каркас из триний-титанового сплава (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.tumbaga=Тумбаговый каркас (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.tungstentitaniumcarbide=Каркас из вольфрам-титананового карбида (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.watertightsteel=Каркас из водостойкой стали (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.whitemetal=Каркас из белого металла (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.zeron100=Каркас из зерона-100 (TileEntity)
+gt.oreprefix.material_frame_box_tileentity.zirconiumcarbide=Каркас из карбида циркония (TileEntity)
+
 # Ores
 gt.oreprefix.material_ore.agarditecd=Агардитовая (Cd) руда
 gt.oreprefix.material_ore.agarditela=Агардитовая (La) руда
@@ -274,6 +335,7 @@ gt.oreprefix.material_ore.zircon=Цирконовая руда
 gt.oreprefix.material_ore.zirconolite=Цирконолитовая руда
 gt.oreprefix.material_ore.zircophyllite=Циркофиллитовая руда
 gt.oreprefix.material_ore.zirkelite=Циркелитовая руда
+
 # Materials
 ## Bolts
 gt.oreprefix.material_bolt.abyssalalloy=Болт из сплава бездны
