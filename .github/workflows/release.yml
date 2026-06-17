@@ -34,7 +34,8 @@ jobs:
 
           semver_regex='^[0-9]+\.[0-9]+\.[0-9]+$'
           semver_title_regex='^v?[0-9]+\.[0-9]+\.[0-9]+$'
-          semver_list_regex='^[0-9]+\.[0-9]+\.[0-9]+([[:space:]]*;[[:space:]]*[0-9]+\.[0-9]+\.[0-9]+)*$'
+          semver_seg='([0-9]+|[Xx])'
+          semver_list_regex="^${semver_seg}\.${semver_seg}\.${semver_seg}([[:space:]]*;[[:space:]]*${semver_seg}\.${semver_seg}\.${semver_seg})*$"
 
           if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && -n "${{ github.event.inputs.version }}" ]]; then
             VERSION="${{ github.event.inputs.version }}"
@@ -60,7 +61,7 @@ jobs:
           PACK_GAME_VERSION="$(echo "$PACK_GAME_VERSION" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
 
           if [[ ! "$PACK_GAME_VERSION" =~ $semver_list_regex ]]; then
-            echo "pack_game_version '$PACK_GAME_VERSION' must be SemVer list separated by ';' (example: 2.8.0;2.8.1)."
+            echo "pack_game_version '$PACK_GAME_VERSION' must be SemVer list separated by ';' (example: 2.8.0;2.8.1 or 2.9.X)."
             exit 1
           fi
 
