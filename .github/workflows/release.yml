@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Determine release metadata
         shell: bash
@@ -42,8 +44,8 @@ jobs:
           else
             PR_TITLE="$(echo "${{ github.event.pull_request.title }}" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
             if [[ ! "$PR_TITLE" =~ $semver_title_regex ]]; then
-              echo "PR title '$PR_TITLE' must be version in format x.y.z or vx.y.z."
-              exit 1
+              echo "PR title '$PR_TITLE' is not a release version, skipping release."
+              exit 0
             fi
             VERSION="${PR_TITLE#v}"
           fi
@@ -65,6 +67,7 @@ jobs:
             exit 1
           fi
 
+          echo "RELEASE=true" >> "$GITHUB_ENV"
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
           echo "PACK_GAME_VERSION=$PACK_GAME_VERSION" >> "$GITHUB_ENV"
 
@@ -72,6 +75,7 @@ jobs:
           echo "Using pack_game_version: $PACK_GAME_VERSION"
 
       - name: Sync pack.mcmeta with release version
+        if: env.RELEASE == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -93,6 +97,7 @@ jobs:
           cat pack.mcmeta
 
       - name: Create zip archive
+        if: env.RELEASE == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -103,6 +108,7 @@ jobs:
           zip -r "$ZIP_NAME" assets pack.mcmeta pack.png
 
       - name: Generate release JSON
+        if: env.RELEASE == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -118,6 +124,7 @@ jobs:
           cat gtnh-pack-update.json
 
       - name: Generate release notes
+        if: env.RELEASE == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -126,8 +133,8 @@ jobs:
           echo "" >> RELEASE.md
           echo "### Translation changes" >> RELEASE.md
 
-          if git rev-parse HEAD~1 &>/dev/null; then
-            DIFF_BASE="HEAD~1"
+          if PREV_TAG="$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null)"; then
+            DIFF_BASE="$PREV_TAG"
           else
             DIFF_BASE="$(git hash-object -t tree /dev/null)"
           fi
@@ -156,6 +163,7 @@ jobs:
           cat RELEASE.md
 
       - name: Create GitHub Release
+        if: env.RELEASE == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "${{ env.VERSION }}"
