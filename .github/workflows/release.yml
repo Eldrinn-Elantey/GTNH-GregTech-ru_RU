@@ -31,6 +31,10 @@ jobs:
 
       - name: Determine release metadata
         shell: bash
+        env:
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+          INPUT_PACK_GAME_VERSION: ${{ github.event.inputs.pack_game_version }}
+          PR_TITLE_RAW: ${{ github.event.pull_request.title }}
         run: |
           set -euo pipefail
 
@@ -39,10 +43,10 @@ jobs:
           semver_seg='([0-9]+|[Xx])'
           semver_list_regex="^${semver_seg}\.${semver_seg}\.${semver_seg}([[:space:]]*;[[:space:]]*${semver_seg}\.${semver_seg}\.${semver_seg})*$"
 
-          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && -n "${{ github.event.inputs.version }}" ]]; then
-            VERSION="${{ github.event.inputs.version }}"
+          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && -n "$INPUT_VERSION" ]]; then
+            VERSION="$INPUT_VERSION"
           else
-            PR_TITLE="$(echo "${{ github.event.pull_request.title }}" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
+            PR_TITLE="$(echo "$PR_TITLE_RAW" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
             if [[ ! "$PR_TITLE" =~ $semver_title_regex ]]; then
               echo "PR title '$PR_TITLE' is not a release version, skipping release."
               exit 0
@@ -56,8 +60,8 @@ jobs:
           fi
 
           PACK_GAME_VERSION="$(jq -r '.gtnh_resource_pack_updater.pack_game_version' pack.mcmeta)"
-          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && -n "${{ github.event.inputs.pack_game_version }}" ]]; then
-            PACK_GAME_VERSION="${{ github.event.inputs.pack_game_version }}"
+          if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && -n "$INPUT_PACK_GAME_VERSION" ]]; then
+            PACK_GAME_VERSION="$INPUT_PACK_GAME_VERSION"
           fi
 
           PACK_GAME_VERSION="$(echo "$PACK_GAME_VERSION" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
@@ -95,6 +99,26 @@ jobs:
 
           mv pack.mcmeta.tmp pack.mcmeta
           cat pack.mcmeta
+
+      - name: Commit pack.mcmeta version bump
+        if: env.RELEASE == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH="${{ github.event.pull_request.base.ref || github.ref_name }}"
+
+          if git diff --quiet -- pack.mcmeta; then
+            echo "COMMIT_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          else
+            git add pack.mcmeta
+            git commit -m "Bump pack.mcmeta to v${VERSION}"
+            git push origin "HEAD:${BRANCH}"
+            echo "COMMIT_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          fi
 
       - name: Create zip archive
         if: env.RELEASE == 'true'
@@ -167,7 +191,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "${{ env.VERSION }}"
-          target_commitish: "${{ github.event.pull_request.merge_commit_sha || github.sha }}"
+          name: "${{ env.VERSION }}"
+          target_commitish: "${{ env.COMMIT_SHA }}"
           body_path: RELEASE.md
           files: |
             ${{ env.ZIP_NAME }}
