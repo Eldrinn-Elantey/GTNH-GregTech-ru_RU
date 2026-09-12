@@ -471,6 +471,19 @@ gt.oreprefix.small_material_spring.blacktitanium=Маленькая пружин
 gt.oreprefix.small_material_spring.maragingsteel250=Маленькая пружина из мартенситностареющей стали 250
 gt.oreprefix.small_material_spring.staballoy=Маленькая стабаллой пружина
 
+##Superdense Plates
+gt.oreprefix.superdense_material_plate.abyssalalloy=Сверхплотная пластина из сплава бездны
+gt.oreprefix.superdense_material_plate.advancednitinol=Сверхплотная пластина из улучшенного нитинола
+gt.oreprefix.superdense_material_plate.astraltitanium=Сверхплотная пластина из астрального титана
+gt.oreprefix.superdense_material_plate.botmium=Сверхплотная ботмиевая пластина
+gt.oreprefix.superdense_material_plate.celestialtungsten=Сверхплотная пластина из небесного вольфрама
+gt.oreprefix.superdense_material_plate.chromaticglass=Сверхплотная пластина из хроматического стекла
+gt.oreprefix.superdense_material_plate.dragonblood=Сверхплотная пластина из драконьего металла
+gt.oreprefix.superdense_material_plate.hypogen=Сверхплотная гипогеновая пластина
+gt.oreprefix.superdense_material_plate.laurenium=Сверхплотная лаурениевая пластина
+gt.oreprefix.superdense_material_plate.quantum=Сверхплотная квантум пластина
+gt.oreprefix.superdense_material_plate.rhugnor=Сверхплотная пластина из ругнора
+
 ## Dense Plates
 gt.oreprefix.dense_material_plate.abyssalalloy=Плотная пластина из сплава бездны
 gt.oreprefix.dense_material_plate.arcanite=Плотная арканитовая пластина
@@ -827,6 +840,8 @@ gt.oreprefix.material_dust.zirconolite=Цирконолитовая пыль
 gt.oreprefix.material_dust.zircophyllite=Циркофиллитовая пыль
 gt.oreprefix.material_dust.zirkelite=Циркелитовая пыль
 gt.oreprefix.material_dust.zrcl4=Пыль тетрахлорида циркония
+gt.oreprefix.material_dust.lithiumtetrafluoroberyllatefuelcompound=Пыль топливной смеси тетрафторобериллата лития
+
 
 ## Small Dusts
 gt.oreprefix.small_pile_of_material_dust.abyssalalloy=Маленькая кучка пыли сплава бездны
@@ -992,6 +1007,8 @@ gt.oreprefix.small_pile_of_material_dust.zirconolite=Маленькая кучк
 gt.oreprefix.small_pile_of_material_dust.zircophyllite=Маленькая кучка циркофиллитовой пыли
 gt.oreprefix.small_pile_of_material_dust.zirkelite=Маленькая кучка циркелитовой пыли
 gt.oreprefix.small_pile_of_material_dust.zrcl4=Маленькая кучка пыли тетрахлорида циркония
+gt.oreprefix.small_pile_of_material_dust.lithiumtetrafluoroberyllatefuelcompound=Маленькая кучка пыли топливной смеси тетрафторобериллата лития
+
 
 ## Tiny Dusts
 gt.oreprefix.tiny_pile_of_material_dust.abyssalalloy=Крошечная кучка пыли сплава бездны
@@ -1138,6 +1155,8 @@ gt.oreprefix.tiny_pile_of_material_dust.zirconiumtetrafluoride=Крошечна�
 gt.oreprefix.tiny_pile_of_material_dust.zirconolite=Крошечная кучка цирконолитовой пыли
 gt.oreprefix.tiny_pile_of_material_dust.zircophyllite=Крошечная кучка циркофиллитовой пыли
 gt.oreprefix.tiny_pile_of_material_dust.zirkelite=Крошечная кучка циркелитовой пыли
+
+
 
 ## Foils
 gt.oreprefix.material_foil.advancednitinol=Фольга из улучшенного нитинола
@@ -1935,6 +1954,8 @@ gt.oreprefix.tiny_pile_of_material.sodiumfluoride=Крошечная кучка 
 gt.oreprefix.tiny_pile_of_material.strontiumhydroxide=Крошечная кучка пыли гидроксида стронция
 gt.oreprefix.tiny_pile_of_material.strontiumoxide=Крошечная кучка пыли оксида стронция
 gt.oreprefix.tiny_pile_of_material.zrcl4=Крошечная кучка пыли тетрахлорида циркония
+gt.oreprefix.tiny_pile_of_material.lithiumtetrafluoroberyllatefuelcompound=Крошечная кучка пыли топливной смеси тетрафторобериллата лития
+
 # Fluid
 ## Moltens
 gt.oreprefix.molten_material.abyssalalloy=Расплавленный сплав бездны
@@ -2027,6 +2048,7 @@ gt.oreprefix.molten_material.whitemetal=Расплавленный белый м
 gt.oreprefix.molten_material.woodsglass=Расплавленное стекло Вуда
 gt.oreprefix.molten_material.zeron100=Расплавленный зерон-100
 gt.oreprefix.molten_material.zirconiumcarbide=Расплавленный карбид циркония
+gt.oreprefix.molten_material.fluoritef=Расплавленный флюорит (F)
 
 ## Plasma
 gt.oreprefix.material_plasma.advancednitinol=Плазма улучшенного нитинола
@@ -2134,3 +2156,4 @@ gt.oreprefix.material_cell.un32fertiliser=Капсула удобрения UN-3
 gt.oreprefix.material_cell.fluid.ureamix=Капсула смеси мочевины
 gt.oreprefix.material_cell.fluid.fluid.coaltar=Капсула каменноугольного дёгтя
 gt.oreprefix.material_cell.fluid.fluid.coaltaroil=Капсула каменноугольного минерального масла
+gt.oreprefix.material_cell.fluoritef=Капсула расплавленного флюорита (F)
